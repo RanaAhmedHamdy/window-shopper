@@ -13,6 +13,7 @@
 		A11FE1EE1FC5A2730052B373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11FE1ED1FC5A2730052B373 /* Assets.xcassets */; };
 		A11FE1F11FC5A2730052B373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11FE1EF1FC5A2730052B373 /* LaunchScreen.storyboard */; };
 		A11FE1FB1FC5A6080052B373 /* RoundedCornersTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11FE1FA1FC5A6080052B373 /* RoundedCornersTxtField.swift */; };
+		A11FE1FE1FC5BBD70052B373 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11FE1FD1FC5BBD70052B373 /* Wage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A11FE1F01FC5A2730052B373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A11FE1F21FC5A2730052B373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A11FE1FA1FC5A6080052B373 /* RoundedCornersTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersTxtField.swift; sourceTree = "<group>"; };
+		A11FE1FD1FC5BBD70052B373 /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A11FE1E51FC5A2730052B373 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				A11FE1FC1FC5BBC50052B373 /* Model */,
 				A11FE1F91FC5A5D30052B373 /* View */,
 				A11FE1F81FC5A42E0052B373 /* Controller */,
 				A11FE1E61FC5A2730052B373 /* AppDelegate.swift */,
@@ -81,6 +84,14 @@
 				A11FE1FA1FC5A6080052B373 /* RoundedCornersTxtField.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A11FE1FC1FC5BBC50052B373 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A11FE1FD1FC5BBD70052B373 /* Wage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A11FE1E91FC5A2730052B373 /* MainVC.swift in Sources */,
+				A11FE1FE1FC5BBD70052B373 /* Wage.swift in Sources */,
 				A11FE1FB1FC5A6080052B373 /* RoundedCornersTxtField.swift in Sources */,
 				A11FE1E71FC5A2730052B373 /* AppDelegate.swift in Sources */,
 			);
